@@ -94,7 +94,7 @@ tests:
       name: HassTurnOn
       slots:
         domain: light
-    response: Licht eingeschaltet
+    response: Alle Lichter eingeschaltet
 
   # Area awareness
   - sentences:

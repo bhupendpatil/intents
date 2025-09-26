@@ -4,6 +4,7 @@ responses:
     HassTurnOff:
       default: "{{ slots.name }} ausgeschaltet"
       light: "Licht ausgeschaltet"
+      light_all: "Alle Lichter ausgeschaltet"
       fan_all: "Die Ventilatoren sind ausgeschaltet"
       cover: "geschlossen"
       close_all: "alle geschlossen"

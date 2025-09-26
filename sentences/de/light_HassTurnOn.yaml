@@ -13,12 +13,17 @@ intents:
           - "(<licht>|<lichter>|<alle_lichter>) <area_floor> ((an|ein)[schalten]|anmachen|aufdrehen)"
           - "(<licht>|<lichter>|<alle_lichter>) ((an|ein)[schalten]|anmachen|aufdrehen) <area_floor>"
           - "<area_floor> (<licht>|<lichter>|<alle_lichter>) ((an|ein)[schalten]|anmachen|aufdrehen)"
+        response: "light"
+        slots:
+          domain: "light"
+
+      # all lights
+      - sentences:
           - "(<schalten>|<machen>) <alle_lichter> an"
           - "<schalten> <alle_lichter> ein"
           - "dreh[e] <alle_lichter> auf"
           - "<alle_lichter> ((an|ein)[schalten]|anmachen|aufdrehen)"
-
-        response: "light"
+        response: "light_all"
         slots:
           domain: "light"
 
