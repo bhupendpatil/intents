@@ -255,6 +255,44 @@ tests:
       - Die Helligkeit der Lampen im Schlafzimmer auf 11 Prozent dimmen
       - Helligkeit aller Lampen im Schlafzimmer auf 11 Prozent dimmen
       - Helligkeit im Schlafzimmer auf 11 Prozent dimmen
+      - Schlafzimmer Helligkeit 11%
+      - im Schlafzimmer Helligkeit Licht 11%
+      - im Schlafzimmer Helligkeit des Lichts 11%
+      - im Schlafzimmer helligkeit der Lampen 11%
+      - im Schlafzimmer helligkeit aller Lampen 11%
+      - Schlafzimmer Helligkeit auf 11%
+      - Schlafzimmer Helligkeit Licht auf 11%
+      - im Schlafzimmer Helligkeit des Lichts auf 11 Prozent
+      - im Schlafzimmer die Helligkeit der Lampen auf 11 Prozent
+      - im Schlafzimmer Helligkeit auf 11% einstellen
+      - im Schlafzimmer Helligkeit des Lichts auf 11% einstellen
+      - im Schlafzimmer helligkeit der Lampen auf 11% einstellen
+      - im Schlafzimmer helligkeit aller Lampen auf 11% einstellen
+      - im Schlafzimmer Helligkeit auf 11% dimmen
+      - im Schlafzimmer Helligkeit des Lichts auf 11% dimmen
+      - im Schlafzimmer helligkeit der Lampen auf 11% dimmen
+      - im Schlafzimmer helligkeit aller Lampen auf 11% dimmen
+      - im Schlafzimmer Helligkeit auf 11% ändern
+      - im Schlafzimmer Helligkeit Licht auf 11% ändern
+      - im Schlafzimmer Helligkeit des Lichts auf 11 Prozent stellen
+      - im Schlafzimmer die Helligkeit der Lampen auf 11 Prozent verändern
+      - im Schlafzimmer die Helligkeit 11%
+      - im Schlafzimmer die Helligkeit Licht 11%
+      - im Schlafzimmer die Helligkeit des Lichts 11%
+      - im Schlafzimmer die Helligkeit aller Lichter auf 11%
+      - im Schlafzimmer die Helligkeit Licht auf 11%
+      - im Schlafzimmer die Helligkeit des Lichts auf 11 Prozent
+      - im Schlafzimmer die Helligkeit auf 11% einstellen
+      - im Schlafzimmer die Helligkeit des Lichts auf 11% einstellen
+      - im Schlafzimmer die helligkeit der Lampen auf 11% einstellen
+      - im Schlafzimmer die helligkeit aller Lampen auf 11% einstellen
+      - im Schlafzimmer die Helligkeit auf 11% dimmen
+      - im Schlafzimmer die Helligkeit des Lichts auf 11% dimmen
+      - im Schlafzimmer die helligkeit der Lampen auf 11% dimmen
+      - im Schlafzimmer die helligkeit aller Lampen auf 11% dimmen
+      - im Schlafzimmer die Helligkeit auf 11% ändern
+      - im Schlafzimmer die Helligkeit Licht auf 11% ändern
+      - im Schlafzimmer die Helligkeit des Lichts auf 11 Prozent stellen
     intent:
       name: HassLightSet
       slots:
@@ -337,6 +375,44 @@ tests:
       - Die Helligkeit der Lampen im Erdgeschoss auf 15 Prozent dimmen
       - Helligkeit aller Lampen im Erdgeschoss auf 15 Prozent dimmen
       - Helligkeit im Erdgeschoss auf 15 Prozent dimmen
+      - Erdgeschoss Helligkeit 15%
+      - im Erdgeschoss Helligkeit Licht 15%
+      - im Erdgeschoss Helligkeit des Lichts 15%
+      - im Erdgeschoss helligkeit der Lampen 15%
+      - im Erdgeschoss helligkeit aller Lampen 15%
+      - Erdgeschoss Helligkeit auf 15%
+      - Erdgeschoss Helligkeit Licht auf 15%
+      - im Erdgeschoss Helligkeit des Lichts auf 15 Prozent
+      - im Erdgeschoss die Helligkeit der Lampen auf 15 Prozent
+      - im Erdgeschoss Helligkeit auf 15% einstellen
+      - im Erdgeschoss Helligkeit des Lichts auf 15% einstellen
+      - im Erdgeschoss helligkeit der Lampen auf 15% einstellen
+      - im Erdgeschoss helligkeit aller Lampen auf 15% einstellen
+      - im Erdgeschoss Helligkeit auf 15% dimmen
+      - im Erdgeschoss Helligkeit des Lichts auf 15% dimmen
+      - im Erdgeschoss helligkeit der Lampen auf 15% dimmen
+      - im Erdgeschoss helligkeit aller Lampen auf 15% dimmen
+      - im Erdgeschoss Helligkeit auf 15% ändern
+      - im Erdgeschoss Helligkeit Licht auf 15% ändern
+      - im Erdgeschoss Helligkeit des Lichts auf 15 Prozent stellen
+      - im Erdgeschoss die Helligkeit der Lampen auf 15 Prozent verändern
+      - im Erdgeschoss die Helligkeit 15%
+      - im Erdgeschoss die Helligkeit Licht 15%
+      - im Erdgeschoss die Helligkeit des Lichts 15%
+      - im Erdgeschoss die Helligkeit aller Lichter auf 15%
+      - im Erdgeschoss die Helligkeit Licht auf 15%
+      - im Erdgeschoss die Helligkeit des Lichts auf 15 Prozent
+      - im Erdgeschoss die Helligkeit auf 15% einstellen
+      - im Erdgeschoss die Helligkeit des Lichts auf 15% einstellen
+      - im Erdgeschoss die helligkeit der Lampen auf 15% einstellen
+      - im Erdgeschoss die helligkeit aller Lampen auf 15% einstellen
+      - im Erdgeschoss die Helligkeit auf 15% dimmen
+      - im Erdgeschoss die Helligkeit des Lichts auf 15% dimmen
+      - im Erdgeschoss die helligkeit der Lampen auf 15% dimmen
+      - im Erdgeschoss die helligkeit aller Lampen auf 15% dimmen
+      - im Erdgeschoss die Helligkeit auf 15% ändern
+      - im Erdgeschoss die Helligkeit Licht auf 15% ändern
+      - im Erdgeschoss die Helligkeit des Lichts auf 15 Prozent stellen
     intent:
       name: HassLightSet
       slots:
@@ -415,6 +491,11 @@ tests:
       - Schlafzimmerlampe grün färben
       - Stelle die Farbe der Schlafzimmerlampe auf Grün ein
       - stell die Schlafzimmerlampe auf Grün ein
+      - Schlafzimmerlampe Farbe auf Grün ändern
+      - ändere die Farbe von der Schlafzimmerlampe auf grün
+      - Farbe von der Schlafzimmerlampe auf grün ändern
+      - die schlafzimmerlampe in grün leuchten lassen
+      - schlafzimmerlampe in farbe grün einfärben
     intent:
       name: HassLightSet
       slots:
@@ -444,6 +525,16 @@ tests:
       - Alle Leuchten im Schlafzimmer auf blau
       - stell alle Lichter im Schlafzimmer blau ein
       - verändere alle Lampen im Schlafzimmer zu blau
+      - Beim Licht im Schlafzimmer die Farbe zu blau verändern
+      - Bei allen Lampen im Schlafzimmer Farbe auf Blau einstellen
+      - Bei den Lichtern im Schlafzimmer die Farbe auf Blau ändern
+      - Bei allen Leuchten im Schlafzimmer Farbe Blau
+      - Das Licht im Schlafzimmer in blau leuchten lassen
+      - die Lampen im Schlafzimmer in Farbe blau leuchten lassen
+      - alle lampen im Schlafzimmer blau leuchten lassen
+      - alle leuchten im schlafzimmer in blau leuchten lassen
+      - schlafzimmer in blau leuchten lassen
+      - das Schlafzimmer in farbe blau leuchten lassen
     intent:
       name: HassLightSet
       slots:
@@ -474,6 +565,16 @@ tests:
       - Alle Leuchten im Erdgeschoss auf blau
       - stell alle Lichter im Erdgeschoss blau ein
       - verändere alle Lampen im Erdgeschoss zu blau
+      - Beim Licht im Erdgeschoss die Farbe zu blau verändern
+      - Bei allen Lampen im Erdgeschoss Farbe auf Blau einstellen
+      - Bei den Lichtern im Erdgeschoss die Farbe auf Blau ändern
+      - Bei allen Leuchten im Erdgeschoss Farbe Blau
+      - Das Licht im Erdgeschoss in blau leuchten lassen
+      - die Lampen im Erdgeschoss in Farbe blau leuchten lassen
+      - alle lampen im Erdgeschoss blau leuchten lassen
+      - alle leuchten im Erdgeschoss in blau leuchten lassen
+      - Erdgeschoss in blau leuchten lassen
+      - das Erdgeschoss in farbe blau leuchten lassen
     intent:
       name: HassLightSet
       slots:
@@ -518,6 +619,18 @@ tests:
       - verändere alle Lampen hier im Raum zu blau
       - Färbe den Raum blau
       - Färbe diesen Raum blau ein
+      - Beim Licht im Raum die Farbe zu blau verändern
+      - Bei allen Lampen hier die Farbe auf Blau einstellen
+      - Bei den Lichtern in diesem Raum die Farbe auf Blau ändern
+      - Bei allen Leuchten hier im Raum Farbe Blau
+      - Alle Lichter in diesem Raum die Farbe auf Blau einstellen
+      - Das Licht in diesem Raum in blau leuchten lassen
+      - die Lampen im Raum in Farbe blau leuchten lassen
+      - alle lampen hier blau leuchten lassen
+      - alle leuchten im raum in blau leuchten lassen
+      - diesen Raum blau leuchten lassen
+      - den raum in blau leuchten lassen
+      - den raum in farbe blau leuchten lassen
     intent:
       name: HassLightSet
       context:

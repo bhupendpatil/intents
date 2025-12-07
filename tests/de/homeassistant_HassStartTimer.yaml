@@ -3,15 +3,21 @@ language: de
 tests:
   - sentences:
       - "Starte einen 2 Stunden Timer"
+      - "Starte noch einen Timer für 2 Stunden"
       - "Stelle Timer auf 2 Stunden"
       - "Stelle Timer für 2 Stunden"
+      - "Stell einen Timer für 2 Stunden"
       - "Stelle einen Timer auf 2 Stunden"
       - "Stelle einen Timer für 2 Stunden"
       - "Erstelle 2 Stunden Timer"
+      - "Erstell 2 Stunden Timer"
       - "2 Stunden Timer"
       - "Timer auf 2 Stunden"
       - "Timer für 2 Stunden"
       - "Timer 2 Stunden"
+      - "einen 2 Stunden Timer"
+      - "einen Timer auf 2 Stunden"
+      - "einen Timer für 2 Stunden"
     intent:
       name: HassStartTimer
       slots:
@@ -22,13 +28,19 @@ tests:
       - "Starte einen 1 Stunde Timer"
       - "Stelle Timer auf 1 Stunde"
       - "Stelle Timer für 1 Stunde"
+      - "Stell Timer für 1 Stunde"
       - "Stelle einen Timer auf 1 Stunde"
       - "Stelle einen Timer für 1 Stunde"
+      - "Stelle noch einen Timer für 1 Stunde"
       - "Erstelle 1 Stunde Timer"
+      - "Erstell 1 Stunde Timer"
       - "1 Stunde Timer"
       - "Timer auf 1 Stunde"
       - "Timer für 1 Stunde"
       - "Timer 1 Stunde"
+      - "einen 1 Stunden Timer"
+      - "einen Timer auf 1 Stunden"
+      - "einen Timer für 1 Stunden"
     intent:
       name: HassStartTimer
       context:
@@ -42,6 +54,9 @@ tests:
       - "Timer für 1 Stunde und 15 Minuten"
       - "Setze Timer für 1 Stunde und 15 Minuten"
       - "Timer 1 Stunde 15 Minuten"
+      - "einen 1 Stunde 15 Minuten Timer"
+      - "einen Timer auf 1 Stunde und 15 Minuten"
+      - "einen Timer für 1 Stunde 15 Minuten"
     intent:
       name: HassStartTimer
       context:
@@ -55,6 +70,9 @@ tests:
       - "Starte einen 1 Stunde und 30 Sekunden Timer"
       - "Timer für 1 Stunde und 30 Sekunden"
       - "Setze Timer für 1 Stunde und 30 Sekunden"
+      - "einen 1 Stunde und 30 Sekunden Timer"
+      - "einen Timer auf 1 Stunde 30 Sekunden"
+      - "einen Timer für 1 Stunde und 30 Sekunden"
     intent:
       name: HassStartTimer
       context:
@@ -68,6 +86,9 @@ tests:
       - "Starte einen 1 Stunde 15 Minuten und 30 Sekunden timer"
       - "1 Stunde 15 Minuten 30 Sekunden Timer"
       - "Stelle Timer für 1 Stunde, 15 Minuten und 30 Sekunden"
+      - "einen 1 Stunde 15 Minuten und 30 Sekunden Timer"
+      - "einen Timer auf 1 Stunde, 15 Minuten und 30 Sekunden"
+      - "einen Timer für 1 Stunde 15 minuten 30 Sekunden"
     intent:
       name: HassStartTimer
       context:
@@ -83,6 +104,9 @@ tests:
       - "5 Minuten Timer"
       - "Timer 5 Minuten"
       - "Timer für 5 Minuten"
+      - "einen 5 Minuten Timer"
+      - "einen Timer auf 5 Minuten"
+      - "einen Timer für 5 minuten"
     intent:
       name: HassStartTimer
       context:
@@ -92,17 +116,35 @@ tests:
     response: Timer für 5 Minuten gestartet
 
   - sentences:
+      - "einen 5 Minuten Timer für Pizza"
+      - "einen Timer auf 5 Minuten namens Pizza"
+      - "einen Timer für 5 Minuten namens Pizza"
+      - "einen Timer für 5 Minuten für die Pizza"
+      - "einen Timer für 5 Minuten für meine Pizza"
+      - "einen Timer für 5 Minuten für unsere Pizza"
+      - "einen Timer 5 Minuten namens Pizza"
+      - "einen Pizza Timer auf 5 Minuten"
+      - "einen Pizza Timer für 5 Minuten"
+      - "einen Pizza Timer 5 Minuten"
       - "5 Minuten Timer für Pizza"
       - "Stelle Timer namens Pizza auf 5 Minuten"
       - "Stelle Timer namens Pizza für 5 Minuten"
+      - "Stelle einen Timer für meine Pizza auf 5 Minuten"
+      - "Erstelle einen Timer für die Pizza für 5 Minuten"
       - "Timer auf 5 Minuten namens Pizza"
       - "Timer für 5 Minuten namens Pizza"
+      - "Timer für 5 Minuten für die Pizza"
+      - "Timer für 5 Minuten für meine Pizza"
+      - "Timer für 5 Minuten für unsere Pizza"
       - "Timer 5 Minuten namens Pizza"
       - "Pizza Timer auf 5 Minuten"
       - "Pizza Timer für 5 Minuten"
       - "Pizza Timer 5 Minuten"
       - "Stelle einen Pizza Timer auf 5 Minuten"
-      - "Stelle einen Pizza Timer für 5 Minuten"
+      - "Stell einen Pizza Timer für 5 Minuten"
+      - "Stelle einen Timer für 5 Minuten für meine Pizza"
+      - "Erstelle einen Timer für 5 Minuten für unsere Pizza"
+      - "Erstell einen Timer für 5 Minuten für die Pizza"
       - "Stelle Pizza Timer auf 5 Minuten"
       - "Stelle Pizza Timer für 5 Minuten"
     intent:
@@ -116,9 +158,34 @@ tests:
     response: Timer namens Pizza für 5 Minuten gestartet
 
   - sentences:
+      - "Timer für 5 Minuten für den Auflauf"
+      - "Timer für 5 Minuten für meinen Auflauf"
+      - "Timer für 5 Minuten für unseren Auflauf"
+      - "Stelle einen Timer für 5 Minuten für meinen Auflauf"
+      - "Stell einen Timer für 5 Minuten für unseren Auflauf"
+      - "Stelle einen Timer für 5 Minuten für den Auflauf"
+      - "Stelle Timer namens Auflauf für 5 Minuten"
+      - "Auflauf Timer auf 5 Minuten"
+      - "einen Auflauf Timer auf 5 Minuten"
+      - "einen Timer für 5 Minuten für den Auflauf"
+      - "einen Timer für 5 Minuten für meinen Auflauf"
+      - "einen Timer für 5 Minuten für unseren Auflauf"
+    intent:
+      name: HassStartTimer
+      context:
+        area: Wohnzimmer
+      slots:
+        minutes: 5
+        name:
+          - "Auflauf"
+    response: Timer namens Auflauf für 5 Minuten gestartet
+
+  - sentences:
       - "Starte einen 5 Minuten und 10 Sekunden Timer"
       - "Timer für 5 Minuten und 10 Sekunden"
       - "5 Minuten 10 Sekunden Timer"
+      - "einen Timer für 5 Minuten und 10 Sekunden"
+      - "einen 5 Minuten 10 Sekunden Timer"
     intent:
       name: HassStartTimer
       context:
@@ -130,9 +197,12 @@ tests:
 
   - sentences:
       - "Starte einen 45 Sekunden Timer"
+      - "einen Timer für 45 Sekunden"
       - "Timer für 45 Sekunden"
       - "45 Sekunden Timer"
       - "Timer 45 Sekunden"
+      - "einen 45 Sekunden Timer"
+      - "einen Timer 45 Sekunden"
     intent:
       name: HassStartTimer
       context:
@@ -140,6 +210,18 @@ tests:
       slots:
         seconds: 45
     response: Timer für 45 Sekunden gestartet
+
+  - sentences:
+      - "Stelle einen Pizza Timer für 5 Minuten"
+    intent:
+      name: HassStartTimer
+      context:
+        area: Wohnzimmer
+      slots:
+        minutes: 5
+        name:
+          - "Pizza"
+    response: Timer namens Pizza für 5 Minuten gestartet
 
   - sentences:
       - "Öffne die Garagentür in 5 Minuten"
@@ -154,7 +236,23 @@ tests:
     response: Anweisung wird in 5 Minuten ausgeführt
 
   - sentences:
+      - "Öffne die Garagentür in einer Stunde und drei Minuten"
+      - "in einer Stunde und drei Minuten öffne die Garagentür"
+      - "Öffne die Garagentür nach einer Stunde und drei Minuten"
+      - "nach einer Stunde und drei Minuten öffne die Garagentür"
+    intent:
+      name: HassStartTimer
+      slots:
+        hours: 1
+        minutes: 3
+        conversation_command:
+          - "Öffne die Garagentür"
+          - "öffne die Garagentür"
+    response: Anweisung wird in einer Stunde und drei Minuten ausgeführt
+
+  - sentences:
       - "schalte in 5 Minuten das Licht im Wohnzimmer aus"
+      - "schalte nach 5 Minuten das Licht im Wohnzimmer aus"
     intent:
       name: HassStartTimer
       slots:
@@ -165,6 +263,7 @@ tests:
     response: Anweisung wird in 5 Minuten ausgeführt
   - sentences:
       - "schalt in 5 Minuten das Licht im Wohnzimmer aus"
+      - "schalt nach 5 Minuten das Licht im Wohnzimmer aus"
     intent:
       name: HassStartTimer
       slots:
@@ -175,6 +274,7 @@ tests:
     response: Anweisung wird in 5 Minuten ausgeführt
   - sentences:
       - "Mache in 5 Minuten das Licht im Wohnzimmer aus"
+      - "Mache nach 5 Minuten das Licht im Wohnzimmer aus"
     intent:
       name: HassStartTimer
       slots:
@@ -185,6 +285,7 @@ tests:
     response: Anweisung wird in 5 Minuten ausgeführt
   - sentences:
       - "mach in 5 Minuten das Licht im Wohnzimmer aus"
+      - "mach nach 5 Minuten das Licht im Wohnzimmer aus"
     intent:
       name: HassStartTimer
       slots:
@@ -195,6 +296,7 @@ tests:
     response: Anweisung wird in 5 Minuten ausgeführt
   - sentences:
       - "Fahre in 5 Minuten Die Rollläden im Wohnzimmer runter"
+      - "Fahre nach 5 Minuten Die Rollläden im Wohnzimmer runter"
     intent:
       name: HassStartTimer
       slots:
@@ -205,6 +307,7 @@ tests:
     response: Anweisung wird in 5 Minuten ausgeführt
   - sentences:
       - "Fahr in 5 Minuten Die Rollläden im Wohnzimmer runter"
+      - "Fahr nach 5 Minuten Die Rollläden im Wohnzimmer runter"
     intent:
       name: HassStartTimer
       slots:

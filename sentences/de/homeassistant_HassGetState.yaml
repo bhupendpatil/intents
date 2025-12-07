@@ -12,6 +12,42 @@ intents:
             - script
 
       - sentences:
+          - "wie laut ist <name>[ <area_floor>]"
+          - "Lautstärke <name>[ <area_floor>]"
+        response: get_volume
+        requires_context:
+          domain:
+            - media_player
+
+      - sentences:
+          - "wie hei(ss|ß)t (das lied|der song|der titel) (auf <name>|im {name})[ <area_floor>]"
+          - "(was|welches lied|welcher song|welcher titel) (läuft|spielt) (auf <name>|im {name})[ <area_floor>]"
+          - "was spielt <name>[ <area_floor>]"
+        response: get_media_name
+        requires_context:
+          domain:
+            - media_player
+
+      - sentences:
+          - "wie hell ist <name>[ <area_floor>]"
+          - "Helligkeit <name>[ <area_floor>]"
+          - "Auf wie viel <prozent> ist <name>[ <area_floor>] ([ein]gestellt|gedimmt)"
+        response: get_brightness
+        requires_context:
+          domain:
+            - light
+        expansion_rules:
+          prozent: "(Prozent|%)"
+
+      - sentences:
+          - "auf (welche Farbtemperatur|wie viel Kelvin) ist <name>[ <area_floor>] eingestellt"
+          - "Farbtemperatur <name>[ <area_floor>]"
+        response: get_color_temperature
+        requires_context:
+          domain:
+            - light
+
+      - sentences:
           - "ist <name> {on_off_states:state}[ <area_floor>]"
           - "ist <name>[ <area_floor>] {on_off_states:state}"
           - "ist[ <area_floor>] <name> {on_off_states:state}"

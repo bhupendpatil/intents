@@ -1,5 +1,6 @@
 language: de
 tests:
+  # by area
   - sentences:
       - Schalte das Licht in der Küche an
       - Schalte die Lichter in der Küche an
@@ -67,6 +68,15 @@ tests:
       - In Küche alle Lichter an
       - Licht Küche an
       - Küche Licht an
+      # STT-fixes
+      - schalte in der Küche Lichtern
+      - schalt in der Küche das Lichtern
+      - mache in der Küche Lichtern
+      - mach in der Küche das Lichtern
+      - Lichtern in der Küche
+      - das Lichtern in der Küche
+      - in der Küche Lichtern
+      - in der Küche das Lichtern
     intent:
       name: HassTurnOn
       slots:
@@ -74,6 +84,7 @@ tests:
         domain: light
     response: Licht eingeschaltet
 
+  # all lights
   - sentences:
       - Schalte alle Lichter an
       - Schaltet alle Lichter an
@@ -90,6 +101,23 @@ tests:
       - Dreh alle Lichter auf
       - Drehe alle Lichter auf
       - Alle Lampen aufdrehen
+      - mach überall das Licht an
+      - mach das Licht überall an
+      - schalte überall die Lampen ein
+      - schalte die Lampen überall ein
+      - dreh überall die Lichter auf
+      - dreh die Lichter überall auf
+      - überall die Lampen einschalten
+      - die Lampen überall einschalten
+      - überall das Licht anschalten
+      - das Licht überall anschalten
+      # STT-fixes
+      - überall lichtern
+      - überall das lichtern
+      - schalte überall lichtern
+      - schalt überall das lichtern
+      - mache überall das lichtern
+      - mach überall lichtern
     intent:
       name: HassTurnOn
       slots:
@@ -117,6 +145,18 @@ tests:
       - dreh die Lichter in diesem Raum auf
       - schalte hier im Raum das Licht an
       - in diesem raum die Lampen anschalten
+      # STT-fixes
+      - Lichtern
+      - schalte Lichtern
+      - schalt das lichtern
+      - mache lichtern
+      - mach das lichtern
+      - schalte hier lichtern
+      - schalt hier das lichtern
+      - mache hier lichtern
+      - mach hier das lichtern
+      - hier lichtern
+      - hier das lichtern
     intent:
       name: HassTurnOn
       context:
@@ -148,6 +188,15 @@ tests:
       - Im Erdgeschoss das Licht aufdrehen
       - Im Erdgeschoss die Lichter aufdrehen
       - Im Erdgeschoss alle Lichter aufdrehen
+      # STT-fixes
+      - schalte im Erdgeschoss Lichtern
+      - schalt im Erdgeschoss das Lichtern
+      - mache im Erdgeschoss Lichtern
+      - mach im Erdgeschoss das Lichtern
+      - Lichtern im Erdgeschoss
+      - das Lichtern im Erdgeschoss
+      - im Erdgeschoss Lichtern
+      - im Erdgeschoss das Lichtern
     intent:
       name: HassTurnOn
       slots:

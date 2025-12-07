@@ -32,10 +32,10 @@ bg:
     BG:
       speech-to-text:
         speech-to-phrase: false
-        whisper: false
+        whisper: true
         cloud: true
       text-to-speech:
-        piper: false
+        piper: true
         cloud: true
 bn:
   nativeName: বাংলা
@@ -77,8 +77,8 @@ cs:
   support:
     CZ:
       speech-to-text:
-        speech-to-phrase: false
-        whisper: false
+        speech-to-phrase: true
+        whisper: true
         cloud: true
       text-to-speech:
         piper: true
@@ -92,7 +92,7 @@ da:
     DK:
       speech-to-text:
         speech-to-phrase: false
-        whisper: false
+        whisper: true
         cloud: true
       text-to-speech:
         piper: true
@@ -102,6 +102,7 @@ de:
   leaders:
     - andreasbrett
     - easterapps
+    - hecktech27
     - mib1185
   support:
     DE:
@@ -242,13 +243,15 @@ fr:
     FR:
       speech-to-text:
         speech-to-phrase: true
-        whisper: false
+        whisper: true
         cloud: true
       text-to-speech:
         piper: true
         cloud: true
 ga:
   nativeName: Gaeilge
+  leaders:
+    - AlanGreene
   support:
     IE:
       speech-to-text:
@@ -308,7 +311,7 @@ hi:
         whisper: false
         cloud: true
       text-to-speech:
-        piper: false
+        piper: true
         cloud: true
 hr:
   nativeName: Hrvatski
@@ -337,6 +340,10 @@ hu:
       text-to-speech:
         piper: true
         cloud: true
+hy:
+  nativeName: հայերեն
+  leaders:
+    - eantonya
 id:
   nativeName: Bahasa Indonesia
   support:
@@ -511,7 +518,7 @@ nb:
   leaders:
     - LaStrada
   support:
-    'NO':
+    "NO":
       speech-to-text:
         speech-to-phrase: false
         whisper: false
@@ -540,15 +547,15 @@ nl:
     BE:
       speech-to-text:
         speech-to-phrase: true
-        whisper: false
+        whisper: true
         cloud: true
       text-to-speech:
-        piper: false
+        piper: true
         cloud: true
     NL:
       speech-to-text:
         speech-to-phrase: true
-        whisper: false
+        whisper: true
         cloud: true
       text-to-speech:
         piper: true
@@ -562,7 +569,7 @@ pl:
     PL:
       speech-to-text:
         speech-to-phrase: false
-        whisper: false
+        whisper: true
         cloud: true
       text-to-speech:
         piper: true
@@ -619,7 +626,7 @@ ru:
     RU:
       speech-to-text:
         speech-to-phrase: false
-        whisper: false
+        whisper: true
         cloud: true
       text-to-speech:
         piper: true
@@ -632,7 +639,7 @@ sk:
     SK:
       speech-to-text:
         speech-to-phrase: false
-        whisper: false
+        whisper: true
         cloud: true
       text-to-speech:
         piper: true
@@ -694,6 +701,8 @@ sw:
       text-to-speech:
         piper: false
         cloud: true
+ta:
+  nativeName: தமிழ்
 te:
   nativeName: తెలుగు
   support:
@@ -737,7 +746,7 @@ uk:
     UA:
       speech-to-text:
         speech-to-phrase: false
-        whisper: false
+        whisper: true
         cloud: true
       text-to-speech:
         piper: true

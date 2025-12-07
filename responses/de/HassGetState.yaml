@@ -85,3 +85,49 @@ responses:
             {%- endfor -%}
           {% endif %}
         {% endif %}
+
+      get_media_name: |
+        {% set title = state.attributes.media_title | default(None) %}
+        {% set artist = state.attributes.media_artist | default(None) %}
+        {% set result = (title and artist) and (title ~ " von " ~ artist) or (title or artist) or None %}
+        {% if state.state in ["off", "idle"] %}
+          {{ slots.name | capitalize }} spielt derzeit nichts ab
+        {% elif not result %}
+          Keine Informationen verfügbar
+        {% elif state.state == "paused" %}
+          {{ result }} ist derzeit pausiert
+        {% elif state.state == "buffering" %}
+          {{ result }} lädt derzeit
+        {% else %}
+          {{ result }}
+        {% endif %}
+
+      get_volume: |
+        {% if 'volume_level' in state.attributes %}
+          {% set volume = (state.attributes.volume_level | float(0)) * 100 %}
+          {{ slots.name | capitalize }} ist auf {{ volume | round(0) | int }} % eingestellt
+        {% elif state.state == "off" %}
+          {{ slots.name | capitalize }} ist im Moment ausgeschaltet
+        {% else %}
+          {{ slots.name | capitalize }} hat keinen Lautstärke-Wert
+        {% endif %}
+
+      get_brightness: |
+        {% if state.state == "off" %}
+          {{ slots.name | capitalize }} ist im Moment ausgeschaltet
+        {% elif 'brightness' in state.attributes and state.attributes.brightness is not none %}
+          {% set brightness = (state.attributes.brightness | float(0)) / 255 * 100 %}
+          {{ slots.name | capitalize }} ist auf {{ brightness | round(0) | int }} % eingestellt
+        {% else %}
+          {{ slots.name | capitalize }} hat keinen Dimmer-Wert
+        {% endif %}
+
+      get_color_temperature: |
+        {% if state.state == "off" %}
+          {{ slots.name | capitalize }} ist im Moment ausgeschaltet
+        {% elif 'color_temp_kelvin' in state.attributes and state.attributes.color_temp_kelvin is not none %}
+          {% set col_temp = (state.attributes.color_temp_kelvin | float(0)) %}
+          {{ slots.name | capitalize }} ist auf {{ col_temp | round(0) | int }} Kelvin eingestellt
+        {% else %}
+          {{ slots.name | capitalize }} hat keinen Farbtemperatur-Wert
+        {% endif %}
