@@ -134,6 +134,42 @@ tests:
   # media_class
   - sentences:
       - "spiele die Band Led Zeppelin"
+      - "spiel Musik von Led Zeppelin"
+      - "spiel Musik von dem Künstler Led Zeppelin"
+      - "spiel Musik vom Künstler Led Zeppelin"
+      - "spiel Musik von der Künstlerin Led Zeppelin"
+      - "spiel Musik von dem Sänger Led Zeppelin"
+      - "spiel Musik vom Sänger Led Zeppelin"
+      - "spiele Musik von der Sängerin Led Zeppelin"
+      - "spiel Musik von der Band Led Zeppelin"
+      - "spiel Musik von der Gruppe Led Zeppelin"
+      - "spiel Lieder von Led Zeppelin"
+      - "spiel Lieder von dem Künstler Led Zeppelin"
+      - "spiel Lieder vom Künstler Led Zeppelin"
+      - "spiel Lieder von der Künstlerin Led Zeppelin"
+      - "spiel Lieder von dem Sänger Led Zeppelin"
+      - "spiel Lieder vom Sänger Led Zeppelin"
+      - "spiel Lieder von der Sängerin Led Zeppelin"
+      - "spiel Lieder von der Band Led Zeppelin"
+      - "spiel Lieder von der Gruppe Led Zeppelin"
+      - "spiel etwas von Led Zeppelin"
+      - "spiel etwas von dem Künstler Led Zeppelin"
+      - "spiel etwas vom Künstler Led Zeppelin"
+      - "spiel etwas von der Künstlerin Led Zeppelin"
+      - "spiel etwas von dem Sänger Led Zeppelin"
+      - "spiel etwas vom Sänger Led Zeppelin"
+      - "spiel etwas von der Sängerin Led Zeppelin"
+      - "spiel etwas von der Band Led Zeppelin"
+      - "spiel etwas von der Gruppe Led Zeppelin"
+      - "spiel was von Led Zeppelin"
+      - "spiel was von dem Künstler Led Zeppelin"
+      - "spiel was vom Künstler Led Zeppelin"
+      - "spiel was von der Künstlerin Led Zeppelin"
+      - "spiel was von dem Sänger Led Zeppelin"
+      - "spiel was vom Sänger Led Zeppelin"
+      - "spiel was von der Sängerin Led Zeppelin"
+      - "spiel was von der Band Led Zeppelin"
+      - "spiel was von der Gruppe Led Zeppelin"
     intent:
       name: "HassMediaSearchAndPlay"
       slots:
@@ -144,8 +180,56 @@ tests:
         area: "Wohnzimmer"
     response: "Wiedergabe wird gestartet"
 
+  # media class / area
+  - sentences:
+      - "spiele die Band Led Zeppelin in der Küche"
+      - "spiel Musik von Led Zeppelin in der Küche"
+      - "spiel Musik von dem Künstler Led Zeppelin in der Küche"
+      - "spiel Musik vom Künstler Led Zeppelin in der Küche"
+      - "spiel Musik von der Künstlerin Led Zeppelin in der Küche"
+      - "spiel Musik von dem Sänger Led Zeppelin in der Küche"
+      - "spiel Musik vom Sänger Led Zeppelin in der Küche"
+      - "spiel Musik von der Sängerin Led Zeppelin in der Küche"
+      - "spiel Musik von der Band Led Zeppelin in der Küche"
+      - "spiel Musik von der Gruppe Led Zeppelin in der Küche"
+      - "spiel etwas von Led Zeppelin in der Küche"
+      - "spiel etwas von dem Künstler Led Zeppelin in der Küche"
+      - "spiel etwas vom Künstler Led Zeppelin in der Küche"
+      - "spiel etwas von der Künstlerin Led Zeppelin in der Küche"
+      - "spiel etwas von dem Sänger Led Zeppelin in der Küche"
+      - "spiel etwas vom Sänger Led Zeppelin in der Küche"
+      - "spiel etwas von der Sängerin Led Zeppelin in der Küche"
+      - "spiel etwas von der Band Led Zeppelin in der Küche"
+      - "spiel etwas von der Gruppe Led Zeppelin in der Küche"
+      - "spiel was von Led Zeppelin in der Küche"
+      - "spiel was von dem Künstler Led Zeppelin in der Küche"
+      - "spiel was vom Künstler Led Zeppelin in der Küche"
+      - "spiel was von der Künstlerin Led Zeppelin in der Küche"
+      - "spiel was von dem Sänger Led Zeppelin in der Küche"
+      - "spiel was vom Sänger Led Zeppelin in der Küche"
+      - "spiel was von der Sängerin Led Zeppelin in der Küche"
+      - "spiel was von der Band Led Zeppelin in der Küche"
+      - "spiel was von der Gruppe Led Zeppelin in der Küche"
+      - "spiel Lieder von Led Zeppelin in der Küche"
+      - "spiel Lieder von dem Künstler Led Zeppelin in der Küche"
+      - "spiel Lieder vom Künstler Led Zeppelin in der Küche"
+      - "spiel Lieder von der Künstlerin Led Zeppelin in der Küche"
+      - "spiel Lieder von dem Sänger Led Zeppelin in der Küche"
+      - "spiel Lieder vom Sänger Led Zeppelin in der Küche"
+      - "spiel Lieder von der Sängerin Led Zeppelin in der Küche"
+      - "spiel Lieder von der Band Led Zeppelin in der Küche"
+      - "spiel Lieder von der Gruppe Led Zeppelin in der Küche"
+    intent:
+      name: "HassMediaSearchAndPlay"
+      slots:
+        search_query: "Led Zeppelin"
+        media_class: "artist"
+        area: "Küche"
+    response: "Wiedergabe wird gestartet"
+
   - sentences:
       - "spiele das Album American Idiot"
+      - "spiele die Platte American Idiot"
     intent:
       name: "HassMediaSearchAndPlay"
       slots:
@@ -158,6 +242,9 @@ tests:
 
   - sentences:
       - "spiele den track Enter Sandman"
+      - "spiele den song Enter Sandman"
+      - "spiele das Lied Enter Sandman"
+      - "spiele die nummer Enter Sandman"
     intent:
       name: "HassMediaSearchAndPlay"
       slots:
@@ -166,6 +253,19 @@ tests:
         area: "Wohnzimmer"
       context:
         area: "Wohnzimmer"
+    response: "Wiedergabe wird gestartet"
+
+  - sentences:
+      - "spiele den track Enter Sandman in der Küche"
+      - "spiele den song Enter Sandman in der Küche"
+      - "spiele das Lied Enter Sandman in der Küche"
+      - "spiele die nummer Enter Sandman in der Küche"
+    intent:
+      name: "HassMediaSearchAndPlay"
+      slots:
+        search_query: "Enter Sandman"
+        media_class: "track"
+        area: "Küche"
     response: "Wiedergabe wird gestartet"
 
   - sentences:

@@ -13,6 +13,7 @@ intents:
           - "[einen ]{timer_name:name} Timer[ (auf|für)] <timer_duration>[ <timer_set_end_of_sentence>]"
           - "[einen ]{timer_name:name} Timer <timer_set_end_of_sentence> (auf|für) <timer_duration>"
           - "<timer_set>[ einen] <timer_duration> Timer"
+          - "<stelle> einen <timer_duration> Timer ein"
           - "<timer_set>[ einen] Timer (auf|für) <timer_duration>"
           - "<timer_set>[ einen] Timer (auf|für) <timer_duration> (namens|für[ (<possessivpronom_mein>|<possessivpronom_unser>|<artikel_bestimmt>)]) {timer_name:name}"
           - "<timer_set>[ einen] <timer_duration> Timer (namens|für[ (<possessivpronom_mein>|<possessivpronom_unser>|<artikel_bestimmt>)]) {timer_name:name}"

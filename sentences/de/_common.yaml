@@ -551,11 +551,11 @@ lists:
 
   media_class:
     values:
-      - in: "([den ]künstler|[die ]künstlerin|[den ]sänger|[die ]sängerin|[die ]band)"
+      - in: "([den ]künstler|[die ]künstlerin|[den ]sänger|[die ]sängerin|[die ]band|(Musik|Lieder|[et]was) von[ (dem (Künstler|Sänger)|der (Künstlerin|Sängerin|Band|Gruppe))]|(Musik|Lieder|[et]was) vom (Künstler|Sänger))"
         out: "artist"
-      - in: "[das ]album"
+      - in: "([das ]album|[die ]platte)"
         out: "album"
-      - in: "([den ]track|[die ]nummer|[das ]lied)"
+      - in: "([den ]track|[die ]nummer|[das ]lied|[den ]Song)"
         out: "track"
       - in: "([die ]wiedergabeliste|[die ]playlist)"
         out: "playlist"
@@ -686,7 +686,7 @@ expansion_rules:
 
   # Timers
   timer_set: "(starte|setze|<stelle>|<erstelle>)"
-  timer_set_end_of_sentence: "(starten|setzen|[er]stellen)"
+  timer_set_end_of_sentence: "(starten|setzen|[er|ein]stellen)"
   timer_cancel: "(beende|stopp[e]|lösch[e])"
   timer_cancel_end_of_sentence: "(ausschalten|deaktivieren|abbrechen|stoppen|aus)"
   timer_duration_seconds: "{timer_seconds:seconds} Sekunde[n]"
@@ -740,10 +740,16 @@ skip_words:
   - "eben"
   - "kannst du"
   - "kannst du mir"
+  - "kannst du uns"
   - "könntest du"
   - "könntest du mir"
+  - "könntest du uns"
+  - "du könntest"
+  - "du könntest mir"
+  - "du könntest uns"
   - "würdest du"
   - "würdest du mir"
+  - "würdest du uns"
   - "du sollst"
   - "ähm"
   - "äh"
