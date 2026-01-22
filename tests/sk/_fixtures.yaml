@@ -926,7 +926,7 @@ entities:
       temperature: "-2.4"
       temperature_unit: "°C"
 
-  - name: "kosáčik[a]"
+  - name: "Kosáčik[a]"
     id: "lawn_mower.clippy"
     area: "garden"
     state: "docked"

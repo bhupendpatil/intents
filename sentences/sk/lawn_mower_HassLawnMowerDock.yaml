@@ -3,11 +3,12 @@ intents:
   HassLawnMowerDock:
     data:
       - sentences:
-          - "(zastav|zruš) [kosenie] [trávnika]"
-          - "zastav kosačku"
-          - "vypni kosačku"
+          - "(zastav[iť]|zruš[iť]) kosenie [trávnika]"
+          - "prestaň kosiť [trávnik]"
+          - "zastav[iť] kosačku"
+          - "vypn(i|úť) kosačku"
       - sentences:
-          - "(zastav|vypni) <name> [kosačku]"
-          - "vráť <name> [kosačku] [(do|na) (základňu|dok[u])]"
+          - "(zastav[iť]|vypn(i|úť)) (<name>;[kosačku])"
+          - "vrá(ť|tiť) (<name>;[kosačku]) [(do|na) (základňu|dok[u])]"
         requires_context:
           domain: lawn_mower

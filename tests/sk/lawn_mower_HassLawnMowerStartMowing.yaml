@@ -3,19 +3,26 @@ tests:
   - sentences:
       - "začni kosenie"
       - "začni kosenie trávnika"
+      - "začni kosiť"
+      - "začni kosiť trávnik"
       - "spusti kosenie"
+      - "spustiť kosenie"
       - "zapni kosačku"
+      - "zapnúť kosačku"
       - "spusti kosačku"
+      - "spustiť kosačku"
     intent:
       name: HassLawnMowerStartMowing
     response: "Zapínam"
 
   - sentences:
-      - "zapni kosáčik kosačku"
-      - "spusti kosáčik kosačku"
-      - "spusti kosáčik"
+      - "zapni Kosáčik kosačku"
+      - "spusti Kosáčik kosačku"
+      - "spustiť kosačku Kosáčik"
+      - "spusti Kosáčik"
+      - "spustiť Kosáčik"
     intent:
       name: HassLawnMowerStartMowing
       slots:
-        name: "kosáčik"
+        name: "Kosáčik"
     response: "Zapínam"
